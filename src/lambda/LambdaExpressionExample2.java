@@ -1,6 +1,7 @@
 package lambda;
 
-public class LambdaExpressionExample2 {
+public class LambdaExpressionExample2{
+	
 
 	public static void main(String[] args) {
 		
@@ -11,5 +12,4 @@ public class LambdaExpressionExample2 {
 		d.draw();
 
 	}
-
 }

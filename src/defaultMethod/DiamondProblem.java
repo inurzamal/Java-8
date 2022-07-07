@@ -14,3 +14,4 @@ public class DiamondProblem implements InterfaceDemo1, InterfaceDemo2 {
 	}
 
 }
+

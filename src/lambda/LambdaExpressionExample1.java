@@ -1,5 +1,6 @@
 package lambda;
 
+@FunctionalInterface
 interface Test{
 	
 	public void sum(int a, int b);
