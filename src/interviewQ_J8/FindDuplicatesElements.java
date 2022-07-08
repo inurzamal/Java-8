@@ -21,5 +21,4 @@ public class FindDuplicatesElements {
 		list.stream().filter(x->!set.add(x)).collect(Collectors.toSet()).forEach(i->System.out.println(i));
 
 	}
-
 }
