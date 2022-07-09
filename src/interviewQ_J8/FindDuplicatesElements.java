@@ -19,6 +19,9 @@ public class FindDuplicatesElements {
 		//list.stream().filter(x->!set.add(x)).forEach(i->System.out.println(i));
 		
 		list.stream().filter(x->!set.add(x)).collect(Collectors.toSet()).forEach(i->System.out.println(i));
+		
+		System.out.println("Unique Elements: ");
+		set.forEach(e->System.out.println(e));;
 
 	}
 }
