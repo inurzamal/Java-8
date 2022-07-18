@@ -1,4 +1,4 @@
-package consumer_supplier;
+package predefined_functional_interface;
 
 import java.util.function.Consumer;
 

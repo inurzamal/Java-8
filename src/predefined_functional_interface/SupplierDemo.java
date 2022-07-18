@@ -1,6 +1,6 @@
 //Supplier will just supply/return required object and does not take any input/parameter
 
-package consumer_supplier;
+package predefined_functional_interface;
 
 import java.util.Date;
 import java.util.function.Supplier;
