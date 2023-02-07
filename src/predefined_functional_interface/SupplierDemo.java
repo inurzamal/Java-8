@@ -9,20 +9,15 @@ public class SupplierDemo {
 
 	public static void main(String[] args) {
 
-//		SupplierDemo supplierDemo = new SupplierDemo();
-//		System.out.println(supplierDemo.currentDate());;
 		
 		Supplier<Date> d = ()-> new Date();
-		Date date = d.get();
+		Date date = d.get();		
+		System.out.println(date); //Thu Jan 19 23:17:24 IST 2023
 		
-		System.out.println(date);
+		Supplier<Double> r = Math::random; //Supplier<Double> r = ()->Math.random();
+		System.out.println(r.get()); //0.27909
 		
 	}
-
-//	private Date currentDate() {
-//		return new Date();	
-//	}
-
 }
 
 

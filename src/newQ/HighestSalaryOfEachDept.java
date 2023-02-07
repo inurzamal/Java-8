@@ -28,6 +28,7 @@ public class HighestSalaryOfEachDept {
 		Map<String,Optional<Employee>> map = empList.stream()
 				.collect(Collectors.groupingBy(Employee::getDepartment, Collectors.reducing(BinaryOperator.maxBy(comp))));
 		
+		
 		System.out.println(map);
 
 	}
