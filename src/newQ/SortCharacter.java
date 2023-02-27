@@ -17,5 +17,4 @@ public class SortCharacter {
 		System.out.println(str);
 
 	}
-
 }

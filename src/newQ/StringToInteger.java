@@ -18,5 +18,4 @@ public class StringToInteger {
 		
 		numList.forEach(System.out::print);
 	}
-
 }
